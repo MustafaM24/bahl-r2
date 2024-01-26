@@ -18,7 +18,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen overflow-hidden">
       <div className="flex">
-        {/* <Sidebar /> */}
+        <Sidebar />
       </div>
       {/* <div className="lg:-z-10">
         <Sidebar />
